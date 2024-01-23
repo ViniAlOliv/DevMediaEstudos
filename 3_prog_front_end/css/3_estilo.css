@@ -1,0 +1,32 @@
+h1 {
+    color: #6711d6;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #555;
+    font-size: 19px;
+    border-color: #6711d6;
+    text-decoration: underline;
+}
+a {
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    font-style: italic;
+    text-decoration: none;
+}
+h4 {
+    color: rgb(8, 58, 196);
+    font-size: 19px;
+    font-family: 'Arial';
+    font-weight: 200;
+    font-style: italic;
+}
+div {
+    color: darkred;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
