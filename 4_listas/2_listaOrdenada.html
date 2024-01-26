@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Ordenadas</title>
+</head>
+
+<body>
+    <div>
+        <h1>Listas Ordenadas</h1>
+        <p>ol -> Ordered list</p>
+        <!-- Preparo da torta salgada -->
+        <ol>
+            <li>Misture os ingredientes</li>
+            <li>Unte a forma com manteiga e farinha de trigo</li>
+            <li>Espalhe o recheio na forma</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Atributos de marcação</h2>
+        <p>Podemos adicionar marcações para melhor organização da lista ordenada, por exemplo:</p>
+        <ol>
+            <li>ol type="1" -> Ordenação numérica (Padrão)</li>
+            <li>ol type="a" -> Ord. alfabética minúscula</li>
+            <li>ol type="A" -> Ord. alfabética maiúscula</li>
+            <li>ol type="i" -> Num. romanos minúsculos</li>
+            <li>ol type="I" -> Num. romanos maiúsculos</li>
+        </ol>
+
+        <p>Podemos inserir um ponto de início, "start" ou valor de início, e também o "reversed", que apresentará as
+            coisas ao inverso</p>
+        <ol start="2">
+            <li>Misture os ingredientes</li>
+            <li>Unte a forma com manteiga e farinha de trigo</li>
+            <li>Espalhe o recheio na forma</li>
+        </ol>
+        <ol reversed>
+            <li>Misture os ingredientes</li>
+            <li>Unte a forma com manteiga e farinha de trigo</li>
+            <li>Espalhe o recheio na forma</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Exemplos:</h2>
+        <!-- Cronograma de estudos -->
+        <ol>
+            <li>
+                <h3>FRONT-END</h3>
+                <ol type="I">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ol>
+            </li>
+            <li>
+                <h3>BACK-END</h3>
+                <ol type="a">
+                    <li>Lógica de programação com PHP</li>
+                    <li>Estrutura de dados com PHP</li>
+                    <li>Orientação a objetos com PHP</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>

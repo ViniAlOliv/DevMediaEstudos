@@ -1,0 +1,20 @@
+.texto-diferente {
+    font-size: 23px;
+    color: blue;
+}
+.texto-novo {
+    font-weight: bold;
+    color: brown;
+}
+p {
+    font-family: Georgia;
+    font-size: 15px;
+}
+.fundo-azul {
+    background-color: blue;
+    color: white;
+}
+.fundo-vermelho {
+    background-color: red;
+    color: white;
+}
