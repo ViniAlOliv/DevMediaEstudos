@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização através de seletores</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="grey">
+        <h1>Estilização através de seletores</h1>
+        <p>Além de selecionarmos uma tag podemos incluir chaves nessas classes</p>
+        <p>Podemos mudar aparências de tags iguais</p>
+    </div>
+    <div>
+        <h2>Seletor de tags</h2>
+        <p>Estilizamos elementos através das tags</p>
+        <p>Com isso, seletores iguais ficarão com a mesma aparência</p>
+    </div>
+    <div class="grey">
+        <h2>Seletor de classes</h2>
+        <p>Podemos ter uma classe dentro de uma devida tag para mudar a aparência de algo, como abaixo</p>
+        <p class="texto-diferente">Esse texto</p>
+        <p class="texto-novo">Esse é novo</p>
+        <p>Nos dois textos acima, temos uma classe. Podemos chama-las de seletores e é uma boa prática na programação dessa tecnologia</p>
+        <p>Ter uma classe com o nome do objeto ajuda, como abaixo</p>
+        <p>O <span class="fundo-azul">rato</span> roeu a roupa do <span class="fundo-vermelho">rei</span> de Roma</p>
+    
+        <p>Podemos dar o mesmo nome de uma classe para mais tags caso quisermos trabalhar com resultados semelhantes às mesmas</p>
+    </div>
+    <div>
+        <h2>Reaproveitando classes</h2>
+        <p>Podemos ter classes iguais em diferentes tipos de tags, se quisermos definir e reaproveitar algo</p>
+        <!--Exemplo abaixo-->
+        <h1>Switch é console mais vendido da história da Nintendo</h1>
+        <h2 class="texto-azul">De forma oficial a Nintendo revelou que o Switch quebrou recordes de venda, ultrapassando o Wii</h2>
+        <p>Agora é oficial: o <span class="texto-negrito">Switch</span> é o console mais vendido da Nintendo de todos os tempos. O video game ultrapassou o <span class="texto-negrito">Wii</span>, que até então estava no topo da lista. A informação foi revelada pela Nintendo, em um relatório financeiro divulgado. De acordo com o documento, o Switch vendeu 103,54 milhões de unidades até o dia 31 de dezembro de 2021, ficando acima dos 101, 63 milhões do <span class="texto-azul">saudoso Wii</span>.</p>
+    
+        <p>Podemos também ter duas classes dentro de uma tag, separando as mesmas por espaço</p>
+        <span class="texto-negrito texto-verde">TV Bahia</span>
+    </div>
+    
+    <div class="grey">
+        <h2>Agrupando Seletores</h2>
+        <p>Podemos ter 2 seletores agrupados, quando identificamos a tag no css por vírgula</p>
+        <p>a, p { font-size: 18p; }</p>
+        <p>Podemos também agrupar classes:</p>
+        <p>.subtitulo, .paragrafo { font-family: Tahoma }</p>
+    </div>
+
+    <div>
+        <h2>Descendência de Elementos</h2>
+        <p>Podemos aqui indicar qual uma tag e dizer qual elemento ela se encontra, com espaço no css</p>
+        <p>OBS: 2 elementos diferentes -> vírgula //// Indicar um elemento dentro de outro -> espaço</p>
+        <!--Exemplo-->
+        <div>
+            <p>Teste</p>
+        </div>
+        <p>Continuação do texto</p>
+        <!--Fim exemplo-->
+        <p>div p { valores de css }</p>
+
+        <p>Posso usar também classes com tags, da mesma forma</p>
+    </div>
+</body>
+</html>
