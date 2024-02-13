@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores Relativos</title>
+</head>
+<body>
+    <div>
+        <h2>Valores Relativos</h2>
+        <p>Digamos que tenhamos uma imagem com width de 1440px. Dependendo da tela, aparecerá uma barra de rolagem. Colocando em 100% ele aproveitará o tamanho da tela</p>
+        <p>É importante termos um elemento pai que nos dê um LIMITE para imagens.</p>
+        <p>O ponto chave é: Determinar um valor total Limite. Dentro desse total, a porcentagem</p>
+        <p>Exemplo: Uma div que recebe um valor de 1000px, e eu tenho uma imagem dentro que pega 90%</p>
+        <h6>Para utilizar a porcentagem, basta passar o valor com % na propriedade.</h6>
+        <p>
+            div {
+                width: 800px;
+            }
+        </p>
+        <p>
+            img {
+                height: 50%;
+                padding: 3% 8%;
+            }
+        </p>
+        <p>Qualquer propriedade que receba valor em pixel pode receber em %</p>
+    </div>
+    <div>
+        <h2>VW e VH</h2>
+        <p>Esses valores são VALORES RELATIVOS À TELA.</p>
+        <p>VW -> Value to Width</p>
+        <p>VH -> Value to Height</p>
+        <p>Razão de cálculo é igual ao %</p>
+    </div>
+    <div>
+        <h2>Calc</h2>
+        <p>Podemos ter uma foto que ocupe 100% da página. Se adicionarmos uma borda, a página ultrapassará o limite de tela</p>
+        <p>Ele calcula o valor relativo de algo. Exemplo:</p>
+        <p>Imagem ocupando 100%, mas incluí borda de 30px. Logo, são 60px de borda</p>
+        <p>
+            img {
+                width: calc(100vw - 60px);
+            }
+        </p>
+    </div>
+    
+</body>
+</html>

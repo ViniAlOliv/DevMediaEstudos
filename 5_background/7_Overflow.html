@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+</head>
+<body>
+    <h1>Overflow</h1>
+    <div>
+        <p>Imagine que temos um texto muito grande e esse texto ultrapasse o limite (Já vi isso em alguns sites)</p>
+        <p>o Overflow é para evitar que esse tipo de coisa aconteça</p>
+        <p>
+            div {
+                overflow: scroll;
+            }
+        </p>
+        <p>Difereças de perspectivas:</p>
+        <p>SCROLL: Usado para limitar texto. Cria uma rollbar mesmo quando o conteúdo não é ultrapassado</p>
+        <p>AUTO: Usado para limitar texto. Só cria a rollbar se o conteúdo passar</p>
+    </div>
+    <div>
+        <h2>Overflow x e y</h2>
+        <p>
+            div {
+                overflow-x: scroll;
+                overflow-y: scroll;
+            }
+        </p>
+        <p>O overflow-x inclui a barra de rolagem na horizontal</p>
+        <p>O overflow-y inclui a barra de rolagem na vertical</p>
+        <h3>OBS:</h3>
+        <p>
+            p {
+                overflow: auto scroll;
+            }
+        </p>
+        <p>
+            p {
+                overflow-x: auto;
+                overflow-y: scroll;
+            }
+        </p>
+        <p>Ambos códigos fazem a mesma coisa</p>
+        <h3>OBS: Dvemos falar de FlexBox:</h3>
+        <p>
+            p {
+                display: flex;
+            }
+        </p>
+    </div>
+    
+</body>
+</html>

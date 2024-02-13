@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definindo o Tamanho dos Elementos</title>
+</head>
+<body>
+    <div>
+        <h1>Definindo o Tamanho dos Elementos</h1>
+        <p>Sabemos como definir uma Largura. Agora, vamos definir o tamanho máximo e mínimo da mesma.</p>
+        <ul>
+            <li>min-width</li>
+            <li>max-width</li>
+        </ul>
+        <p>
+            img {
+                width: 100%;
+                min-width: 1200px;
+                max-width: 1300px;
+            }
+        </p>
+        <p>Acima, definimos que a imagem não pode ter menos que 1200px</p>
+        <p>Também, que não poderá ser maior que 1300px</p>
+        <p>Sempre que as propriedades min e max forem definidas, sobrepõem as definidas no width</p>
+    </div>
+    <div>
+        <h2>Altura</h2>
+        <p>Para altura, mesma coisa acima. Temos o min-height e max-height</p>
+        <p>
+            .imagem-noticias {
+                height: auto;
+                min-height: 480px;
+                max-height: 640px;
+               }
+        </p>
+    </div>
+    <div>
+        <h2>Boas práticas</h2>
+        <p>max e min podem ser usados de forma independete, não precisando sempre ter os dois.</p>
+        <p>O mesmo serve para calc</p>
+    </div>
+</body>
+</html>
