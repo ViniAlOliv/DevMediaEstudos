@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow</title>
+</head>
+<body>
+    <div>
+        <h1>Box-shadow</h1>
+    </div>
+    <div>
+        <h2>O que é?</h2>
+        <p>Utilizamos o box-shadow para dar uma sombraao objeto selecionado: div, span, images, qualquer elemento HTML</p>
+    </div>
+    <div>
+        <h2>Deslocamento da sombra</h2>
+        <p>é importante que a base da sombra (x e y) estará sempre positiva, então podemos definir aonde será apresentada</p>
+        <p>Exemplo:</p>
+        <p>Sombra no lado direito: box-shadow: 20px 0;</p>
+        <p>Sombra no lado esquerdo: box-shadow: -20px 0;</p>
+        <p>Sombra abaixo do objeto: box-shadow: 0 20px;</p>
+        <p>Sombra acima do objeto: box-shadow: 0 -20px;</p>
+
+        <p>A compreensão e mistura dos objetos acima faz ela variar para outras direções</p>
+        <p>
+            img {
+                box-shadow: 10px 20px;
+            } 
+        </p>
+    </div>
+    <div>
+        <h2>Desfoque:</h2>
+        <p>Para desfocar um objeto incluímos um última valor ao box-shadow</p>
+        <p>Quanto maior o valor do desfoque, mas a sombra ficará desfocada</p>
+        <p>
+            img {
+                box-shadow: 10px 20px 30px;
+            }
+        </p>
+    </div>
+    <div>
+        <h2>Expansão:</h2>
+        <p>Por padrão, a sombra tem um mesmo tamanho do elemento</p>
+        <p>É possível EXPANDIR a sombra para todas as direções. Adicionando mais um valor ao box-shadow</p>
+        <p>A expansão aumenta a sombra para todos os lados, sendo possível alterar as pontas</p>
+        <p>OBS: O uso do valor de expansão é OPCIONAL, mas se for utilizado o DESFOQUE deve ter o valor zerado. (Boa prática)</p>
+        <p>
+            img {
+                box-shadow: 10px 20px 0 40px;
+            }
+        </p>
+    </div>
+    <div>
+        <h2>Cor:</h2>
+        <p>É possível alterar a cor da sombra, que tem como padrão a cor preta. É mais um valor inserido no box-shadow</p>
+        <p>
+            img {
+                box-shadow: 10px 20px 30px 40px red;
+               }
+               
+               img {
+                box-shadow: 10px 20px 30px 40px #ff0000;
+               }
+               
+               img {
+                box-shadow: 10px 20px 30px 40px RGB(255,0,0);
+               }
+        </p>
+    </div>
+    <div>
+        <h2>INSET (Sombra interna)</h2>
+        <p>É comum termos a sombra sempre externa ao objeto, mas podemos ter sombra interna</p>
+        <p>O valor inset funciona com divs, spans e outros elementos, MENOS com imagens</p>
+        <p>
+            div {
+                box-shadow: 10px 20px 30px 40px #ff0000 inset;
+               }
+               
+               div {
+                box-shadow: inset 10px 20px 30px 40px #ff0000;
+               }
+        </p>
+    </div>
+</body>
+</html>

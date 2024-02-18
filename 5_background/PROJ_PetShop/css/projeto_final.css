@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    padding: 120px 80px;
+    background-image: url('../img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.paragrafo1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.paragrafo2 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.title {
+    max-width: 1024px;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.title h1 {
+    color: #3c184e;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+.title p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title img {
+    width: 20px;
+}
+
+.servicos {
+    padding: 120px 80px;
+}
+
+.servicos h3 {
+    color: #3c184e;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.lista {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #3c184e;
+}
+
+.lista li {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.listaSpan {
+    color: #3c184e;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.imagens {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foto {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.redeSocial {
+    background-color: #3c184e;
+    text-align: center;
+    padding: 120px 80px;
+}
+
+.redeSocial p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.petBoutique {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.midias a {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.midias img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.marcas {
+    padding: 120px 80px;
+}
+
+.marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.imgMarcas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imgMarcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+.ondeEstamos {
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.ondeEstamos h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.ondeEstamos p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.ondeEstamos iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.rodape {
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.text-rodape {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
