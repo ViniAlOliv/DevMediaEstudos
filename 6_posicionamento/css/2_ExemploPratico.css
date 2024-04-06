@@ -1,0 +1,61 @@
+.topo {
+    width: 100%;
+    background-color: #000;
+    border-bottom: 1px solid #d5960054;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.subdivs {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: darkorange;
+}
+
+.link-topo {
+    color: darkorange;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.imagem {
+    height: 300px;
+    width: 500px;
+}
+
+.text-paragraph {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+span {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: bold;
+}

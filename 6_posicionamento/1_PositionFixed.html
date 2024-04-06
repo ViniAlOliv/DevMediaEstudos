@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento fixo na tela</title>
+</head>
+<body>
+    <h1>Position Fixed</h1>
+    <div>
+        <h2>Introdução</h2>
+        <p>Por vezes, ao acessar um site, vemos:</p>
+        <ul>
+            <li>Uma barra de título fixa, que desce junto com o scroll</li>
+            <li>Um botão que fica ativo, ou até mesmo um acesso ao chat</li>
+        </ul>
+        <p>Tudo é feito com o position fixed</p>
+    </div>
+
+    <div>
+        <h2>Fixando elementos na prática</h2>
+        <p>Para fixarmos um elemento devemos usar o CSS como no exemplo abaixo:</p>
+        <p>
+            .div_fixa {
+                position: fixed;
+                border: 2px solid red;
+            }
+        </p>
+    </div>
+    
+    <div>
+        <h2>Movendo elementos</h2>
+        <p>Para movermos um elemento fixo devemos incluir as propriedades:</p>
+        <p>
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        </p>
+        <p>BOA PRÁTICA: Utilizar px e indicar o position antes</p>
+        <p>Exemplo:</p>
+        <p>
+            .div_fixa {
+                position: fixed;
+                border: 2px solid red;
+                right: 100px;
+              }
+        </p>
+    </div>
+
+    <div>
+        <h2>Movendo elementos na parte inferior da página</h2>
+        <p>Utilizar bottom junto com right</p>
+    </div>
+
+    <div>
+        <h2>Conhecendo as propriedades top e left</h2>
+        <p></p>
+    </div>
+</body>
+</html>
